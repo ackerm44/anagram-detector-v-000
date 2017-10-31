@@ -17,6 +17,6 @@ class Anagram
     end
     result = word_array[new_array.index(word)]
   end
-
+  result
 
 end
