@@ -22,6 +22,6 @@ class Anagram
       end
       result
     end
-    
+
   end
 end
