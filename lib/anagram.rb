@@ -20,7 +20,8 @@ class Anagram
       else
         result = []
       end
+      result
     end
-    result
+    
   end
 end
