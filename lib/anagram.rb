@@ -13,7 +13,10 @@ class Anagram
       new_array << sorted
     end
     new_array.each do |word|
-      new_array.index(word) if word == @word else []
+      if word == @word
+        new_array.index(word)
+      else 
+        result = []
     end
     result = word_array[new_array.index(word)]
     result
