@@ -14,12 +14,13 @@ class Anagram
     end
     new_array.each do |word|
       if word == @word
-        new_array.index(word)
+        #new_array.index(word)
+        result = word_array[new_array.index(word)]
+        result
       else
         result = []
       end
     end
-    result = word_array[new_array.index(word)]
-    result
+
   end
 end
