@@ -3,8 +3,8 @@ class Anagram
 
   def initialize(word)
     @word = word
-    word.split.sort!
-    puts word
+    puts word.split.sort!
+    
   end
 
   def match(word_array)
