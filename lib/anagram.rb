@@ -4,8 +4,8 @@ class Anagram
   def initialize(word)
     @word = word.split("").sort!
   end
-  
-  
+
+
   def match(word_array)
     new_array = []
     word_array.each do |word|
