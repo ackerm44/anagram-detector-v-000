@@ -16,7 +16,7 @@ class Anagram
       if word == @word
         #new_array.index(word)
         result = word_array[new_array.index(word)]
-        #result
+        result
       else
         result = []
       end
